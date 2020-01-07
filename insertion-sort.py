@@ -33,6 +33,6 @@ while fwdIndex < len(input):
 
    fwdIndex = fwdIndex + 1
 
-print(input)
-print ("time = " + str(time.time() - startTime))
+for entry in input:
+   print (entry)
 # print (input)
